@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://api-climate.herokuapp.com")
 @RequestMapping("/api/relations")
 public class RelationsController {
     private RelationsRepository relationsRepository;

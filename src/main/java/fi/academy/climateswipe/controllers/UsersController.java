@@ -12,7 +12,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.net.URI;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://api-climate.herokuapp.com")
 @RequestMapping("/api/users")
 public class UsersController {
 
