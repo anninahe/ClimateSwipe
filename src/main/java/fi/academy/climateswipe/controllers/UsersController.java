@@ -13,7 +13,7 @@ import java.net.URI;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 public class UsersController {
 
     private UsersRepository usersRepository;
